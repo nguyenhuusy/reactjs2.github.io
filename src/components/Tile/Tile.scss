@@ -1,0 +1,13 @@
+.tile {
+  position: relative;
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  margin: 1px;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    padding: 50% 0;
+  }
+}

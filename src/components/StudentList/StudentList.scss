@@ -1,0 +1,28 @@
+.student-list {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  padding: 30px 0;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead {
+    text-transform: uppercase;
+
+    td {
+      font-weight: bold;
+      color: darkcyan;
+    }
+  }
+
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,11 @@
+export const TEST_REDUX = 'TEST_REDUX';
+
+// GIPHY
+export const GET_TRENDING_GIFS = 'GET_TRENDING_GIFS';
+export const GET_MORE_TRENDING_GIFS = 'GET_MORE_TRENDING_GIFS';
+export const SEARCH_GIFS='SEARCH_GIFS';
+export const GIPHY_LOADING = 'GIPHY_LOADING';
+export const GET_COLOR ='GET_COLOR';
+export const GENERATE_TILES='GENERATE_TILES';
+export const SAVE_COLOR='SAVE_COLOR';
+export const NAME_COLOR='NAME_COLOR';

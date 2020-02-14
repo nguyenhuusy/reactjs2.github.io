@@ -1,0 +1,16 @@
+.generate-form {
+  padding-bottom: 30px;
+  display:flex;
+
+  .button {
+    margin: 20px 10px 20px 0;
+    text-transform: uppercase;
+  }
+  &-left{
+    width:50%;
+  }
+  .history {
+    width:50%;
+    margin-left:20px;
+  }
+}
